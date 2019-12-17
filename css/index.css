@@ -144,3 +144,106 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* My code starts here */
+
+
+/* Home page */
+
+#container {
+	width:876px;
+	margin: auto;
+	
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: gray;
+}
+header a {
+    color: black;
+    width: 90px;
+}
+a {
+	text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+.headerimg {
+    padding-bottom: 20px;
+}
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}#box7 {
+    background: darkorchid;
+}#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
+/* About page */
+.about {
+    padding: 20px 0;
+}
+.firstRow {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.strategy{
+    border-bottom: 1px dashed black;
+}
+.howWeWork {
+    border-bottom: 1px dashed black;
+}
+.secondRow {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+}
+.places {
+    border-bottom: 1px dashed black;
+}
+.collaboration {
+    border-bottom: 1px dashed black;
+}
+.let{
+    padding: 20px 0;
+}
+.learn {
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2%;
+    padding: 7px;
+	width: 30%;
+	font-size: 12px;
+}
+
+/* product page and stretch */
+
+#tokyo {
+    width: 800px;
+    height: 153px;
+}
